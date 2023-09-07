@@ -2786,7 +2786,7 @@ video {
 
 .border-primary-300 {
   --tw-border-opacity: 1;
-  border-color: rgb(174 175 248 / var(--tw-border-opacity));
+  border-color: rgb(186 66 255 / var(--tw-border-opacity));
 }
 
 .border-transparent {
@@ -2824,12 +2824,12 @@ video {
 
 .bg-primary-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+  background-color: rgb(139 0 219 / var(--tw-bg-opacity));
 }
 
 .bg-primary-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 52 236 / var(--tw-bg-opacity));
+  background-color: rgb(106 0 168 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -3156,27 +3156,27 @@ video {
 
 .text-primary-100 {
   --tw-text-opacity: 1;
-  color: rgb(249 249 254 / var(--tw-text-opacity));
+  color: rgb(223 168 255 / var(--tw-text-opacity));
 }
 
 .text-primary-400 {
   --tw-text-opacity: 1;
-  color: rgb(136 139 244 / var(--tw-text-opacity));
+  color: rgb(167 15 255 / var(--tw-text-opacity));
 }
 
 .text-primary-500 {
   --tw-text-opacity: 1;
-  color: rgb(99 102 241 / var(--tw-text-opacity));
+  color: rgb(139 0 219 / var(--tw-text-opacity));
 }
 
 .text-primary-600 {
   --tw-text-opacity: 1;
-  color: rgb(48 52 236 / var(--tw-text-opacity));
+  color: rgb(106 0 168 / var(--tw-text-opacity));
 }
 
 .text-primary-900 {
   --tw-text-opacity: 1;
-  color: rgb(10 12 106 / var(--tw-text-opacity));
+  color: rgb(29 0 46 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -3797,17 +3797,17 @@ EmojiSymbols;
 
 .hover\:bg-primary-200:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(211 212 251 / var(--tw-bg-opacity));
+  background-color: rgb(204 117 255 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-primary-600:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 52 236 / var(--tw-bg-opacity));
+  background-color: rgb(106 0 168 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-primary-800:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(14 17 158 / var(--tw-bg-opacity));
+  background-color: rgb(51 0 81 / var(--tw-bg-opacity));
 }
 
 .hover\:text-black:hover {
@@ -3822,7 +3822,7 @@ EmojiSymbols;
 
 .hover\:text-primary-600:hover {
   --tw-text-opacity: 1;
-  color: rgb(48 52 236 / var(--tw-text-opacity));
+  color: rgb(106 0 168 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
@@ -3845,12 +3845,12 @@ EmojiSymbols;
 
 .focus\:bg-primary-600:focus {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 52 236 / var(--tw-bg-opacity));
+  background-color: rgb(106 0 168 / var(--tw-bg-opacity));
 }
 
 .focus\:bg-primary-700:focus {
   --tw-bg-opacity: 1;
-  background-color: rgb(19 23 209 / var(--tw-bg-opacity));
+  background-color: rgb(74 0 117 / var(--tw-bg-opacity));
 }
 
 .focus\:text-white:focus {
@@ -3892,7 +3892,7 @@ EmojiSymbols;
 
 .focus\:ring-primary-300:focus {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(174 175 248 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(186 66 255 / var(--tw-ring-opacity));
 }
 
 .focus\:ring-white:focus {
@@ -3905,7 +3905,7 @@ EmojiSymbols;
 }
 
 .focus\:ring-offset-primary-500:focus {
-  --tw-ring-offset-color: #6366F1;
+  --tw-ring-offset-color: #8B00DB;
 }
 
 .group:hover .group-hover\:bg-gray-900 {
@@ -4002,17 +4002,17 @@ EmojiSymbols;
 
 :is(.dark .dark\:text-primary-100) {
   --tw-text-opacity: 1;
-  color: rgb(249 249 254 / var(--tw-text-opacity));
+  color: rgb(223 168 255 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-primary-300) {
   --tw-text-opacity: 1;
-  color: rgb(174 175 248 / var(--tw-text-opacity));
+  color: rgb(186 66 255 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-primary-400) {
   --tw-text-opacity: 1;
-  color: rgb(136 139 244 / var(--tw-text-opacity));
+  color: rgb(167 15 255 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-white) {
@@ -4061,7 +4061,7 @@ EmojiSymbols;
 
 :is(.dark .dark\:hover\:text-primary-500:hover) {
   --tw-text-opacity: 1;
-  color: rgb(99 102 241 / var(--tw-text-opacity));
+  color: rgb(139 0 219 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:focus\:border-indigo-500:focus) {
@@ -4086,7 +4086,7 @@ EmojiSymbols;
 
 :is(.dark .dark\:focus\:ring-primary-900:focus) {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(10 12 106 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(29 0 46 / var(--tw-ring-opacity));
 }
 
 @media (min-width: 640px) {

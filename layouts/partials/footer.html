@@ -13,7 +13,7 @@
         </nav>
         <div class="flex justify-center mt-8 space-x-6">
             {{ if .Site.Params.Social_media.Facebook.Enabled }}
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="{{ .Site.Params.Social_media.Facebook.url }}" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">Facebook</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"
@@ -23,7 +23,7 @@
             </a>
             {{ end }}
             {{ if .Site.Params.Social_media.Instagram.Enabled }}
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="{{ .Site.Params.Social_media.Instagram.url }}" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">Instagram</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"
@@ -33,7 +33,7 @@
             </a>
             {{ end }}
             {{ if .Site.Params.Social_media.Twitter.Enabled }}
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="{{ .Site.Params.Social_media.Twitter.url }}" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">Twitter</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
@@ -42,7 +42,7 @@
             </a>
             {{ end }}
             {{ if .Site.Params.Social_media.Github.Enabled }}
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="{{ .Site.Params.Social_media.Github.url }}" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">GitHub</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"
@@ -51,13 +51,40 @@
                 </svg>
             </a>
             {{ end }}
+            {{ if .Site.Params.Social_media.LinkedIn.Enabled }}
+            <a href="{{ .Site.Params.Social_media.LinkedIn.url }}" class="text-gray-400 hover:text-gray-300">
+                <span class="sr-only">LinkedIn</span>
+                <svg class="w-6 h-6" fill="currentColor" width="250" height="250" version="1.1" viewBox="0 0 66.146 66.146" aria-hidden="true">
+                    <g transform="translate(-36.887 208.9)">
+                        <path class="background" d="m95.414-205.59h-50.732c-2.4266 0-4.4875 1.9192-4.4875 4.2834v50.962c0 2.3671 1.3522 4.2862 3.7788 4.2862h50.732c2.4294 0 5.0205-1.9192 5.0205-4.2862v-50.962c0-2.3642-1.8823-4.2834-4.3118-4.2834zm-32.541 22.679h8.014v4.085h.08788c1.2218-2.2026 4.8305-4.4393 9.2925-4.4393 8.564 0 10.954 4.5471 10.954 12.969v15.733h-8.5045v-14.183c0-3.7703-1.5053-7.0786-5.0261-7.0786-4.2749 0-6.3131 2.8944-6.3131 7.6455v13.616h-8.5045zm-14.174 28.348h8.5045v-28.348h-8.5045zm9.5675-38.27a5.3139 5.3139 0 11-10.628.003 5.3139 5.3139 0 0110.628-.003z" fill-rule="evenodd" stroke-width=".23812"/>
+                    </g>
+                </svg>
+            </a>
+            {{ end }}
         </div>
-        <p class="mt-8 text-base text-center text-gray-400">&copy; {{ now.Format "2006" }}
-            {{ .Site.Title }}. All rights
-            reserved.</p>
-        <p class="mt-2 text-base text-center text-gray-400">Made with &#x2764;&#xfe0f; by <a
-               href="https://nusserstudios.com" class="hover:underline hover:text-primary-600"><span
-                      class="font-black uppercase">Nusser</span> <span class="font-light uppercase">Studios.</span></a>
+        <p class="mt-4 text-base text-center text-gray-400 lg:max-w-7xl mx-auto text-sm">
+            Views expressed herein can in no way be taken to reflect the official opinion the European Union/European Commission/ESA/Greek Ministry of Digital Policy, Telecommunications and Media. Views and opinion expressed are those of the authors only and the European Union/European Commission/ESA/Greek Ministry of Digital Policy, Telecommunications and Media cannot be held responsible for any use which may be made of the information contained therein.
         </p>
+        <div class="lg:flex justify-between mt-4">
+            <!-- <div class="flex-initial">
+            
+            </div>
+            <div class="flex-initial"> -->
+                <p class="text-base text-center text-gray-400">
+                    Design based on <a href="https://github.com/nusserstudios/tailbliss" class="hover:underline hover:text-primary-600">TailBliss by <span class="font-light uppercase">NUSSER STUDIOS</span></a>.
+                    This website is <a href="https://phorge.peaksat.spacedot.gr/source/Website/" class="underline hover:text-primary-600">open source</a>!
+                </p>
+                <p class="text-base text-center text-gray-400">&copy; {{ now.Format "2006" }}
+                    SpaceDot. The content of this website is released under 
+                    {{ $cc := resources.Get "images/global/cc.svg" }}
+                    {{ $cc.Content | safeHTML }}
+                    CC-BY-NC 4.0.
+                    {{ $cc := resources.Get "images/global/by.svg" }}
+                    {{ $cc.Content | safeHTML }}
+                    {{ $cc := resources.Get "images/global/nc-eu.svg" }}
+                    {{ $cc.Content | safeHTML }}
+                </p>
+            <!-- </div> -->
+        </div> 
     </div>
 </footer>

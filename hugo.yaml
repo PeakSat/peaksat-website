@@ -97,17 +97,17 @@ params:
 
   social_media:
     github:
-      enabled: true
-      url: 'https://github.com/nusserstudios'
+      enabled: false
+      url: 'https://github.com/peaksat'
     facebook:
       enabled: true
-      url: 'https://facebook.com/nusserstudios'
+      url: 'https://www.facebook.com/spacedot.auth/'
     instagram:
       enabled: true
-      url: 'https://instagram.com/nusserstudios'
-    twitter:
+      url: 'https://www.instagram.com/spacedot.auth/'
+    linkedin:
       enabled: true
-      url: '@nusserstudios'
+      url: 'https://www.linkedin.com/company/spacedot/'
     
 
 menu:

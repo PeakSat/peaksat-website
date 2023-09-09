@@ -1,0 +1,9 @@
+<svg version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+ <g id="a" transform="translate(-63.642 -64)">
+  <g transform="translate(17.991 17.992)" fill="#2e98a3">
+   <circle cx="95.65" cy="96.008" r="9.6994" shape-rendering="geometricPrecision"/>
+   <path d="m73.017 118.64a32.007 32.007 0 0122.633-54.64.97.97 0 110 1.94 30.067 30.067 0 1030.069 30.069.97.97 0 011.94 0 32.009 32.009 0 01-54.642 22.632z" shape-rendering="geometricPrecision"/>
+   <circle cx="118.3" cy="73.362" r="5.0767" shape-rendering="geometricPrecision"/>
+  </g>
+ </g>
+</svg>

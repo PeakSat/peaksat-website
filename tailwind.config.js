@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
+        // https://www.tailwindshades.com/#color=277.94871794871796%2C100%2C22.941176470588236&step-up=10&step-down=7&hue-shift=0&name=default&base-stop=7&v=1&overrides=e30%3D
         'primary': {
           DEFAULT: '#4A0075',
           50: '#E8C2FF',
@@ -23,6 +24,7 @@ module.exports = {
           900: '#1D002E',
           950: '#12001C'
         },
+        // https://www.tailwindshades.com/#color=25.987261146496813%2C91.81286549707605%2C66.47058823529412&step-up=8&step-down=11&hue-shift=0&name=tan-hide&base-stop=4&v=1&overrides=e30%3D
         'secondary': {
           DEFAULT: '#F89F5B',
           50: '#FEEFE4',

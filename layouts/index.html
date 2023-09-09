@@ -203,7 +203,15 @@
                         {{ with $logo }}
                         {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
                         <img src="{{ $logoimage }}" alt="Aristotle University of Thessaloniki"
-                            class="object-fill overflow-hidden" width="100%" height="" loading="lazy"
+                            class="object-fill overflow-hidden hidden dark:block" width="100%" height="" loading="lazy"
+                             />
+                        {{ end }}
+
+                        {{ $logo := resources.Get "images/global/logos/auth-red.png" }}
+                        {{ with $logo }}
+                        {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
+                        <img src="{{ $logoimage }}" alt="Aristotle University of Thessaloniki"
+                            class="object-fill overflow-hidden dark:hidden" width="100%" height="" loading="lazy"
                              />
                         {{ end }}
 
@@ -234,7 +242,15 @@
                         {{ with $logo }}
                         {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
                         <img src="{{ $logoimage }}" alt="Funded by the European Union - NextGenerationEU"
-                            class="object-fill overflow-hidden" width="100%" height="" loading="lazy"
+                            class="object-fill overflow-hidden hidden dark:block" width="100%" height="" loading="lazy"
+                             />
+                        {{ end }}
+
+                        {{ $logo := resources.Get "images/global/logos/EN_Funded_by_European_Union_vert_RGB_POS.png" }}
+                        {{ with $logo }}
+                        {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
+                        <img src="{{ $logoimage }}" alt="Funded by the European Union - NextGenerationEU"
+                            class="object-fill overflow-hidden dark:hidden" width="100%" height="" loading="lazy"
                              />
                         {{ end }}
 
@@ -258,7 +274,15 @@
                         {{ with $logo }}
                         {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
                         <img src="{{ $logoimage }}" alt="Greece20"
-                            class="object-fill overflow-hidden" width="100%" height="" loading="lazy"
+                            class="object-fill overflow-hidden hidden dark:block" width="100%" height="" loading="lazy"
+                            alt="ESA" />
+                        {{ end }}
+
+                        {{ $logo := resources.Get "images/global/logos/ESA_logo_2020_Deep.png" }}
+                        {{ with $logo }}
+                        {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
+                        <img src="{{ $logoimage }}" alt="Greece20"
+                            class="object-fill overflow-hidden dark:hidden" width="100%" height="" loading="lazy"
                             alt="ESA" />
                         {{ end }}
                     </div>

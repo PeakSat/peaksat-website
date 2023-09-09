@@ -4003,6 +4003,18 @@ EmojiSymbols;
   border-radius: 0.75rem;
 }
 
+:is(.dark .dark\:invisible) {
+  visibility: hidden;
+}
+
+:is(.dark .dark\:block) {
+  display: block;
+}
+
+:is(.dark .dark\:hidden) {
+  display: none;
+}
+
 :is(.dark .dark\:border-gray-600) {
   --tw-border-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-border-opacity));

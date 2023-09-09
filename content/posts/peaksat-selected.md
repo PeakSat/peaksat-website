@@ -4,7 +4,7 @@ date: 2023-09-01T09:00:00+03:00
 draft: false
 language: en
 featured_image: ../assets/images/featured/featured-img-placeholder.png
-summary: AUTh kicks-off the "PeakSAT" project to advance optical satellite communication from Low Earth Orbit to the Cholomondas station, as part of the _Greek CubeSats In-Orbit Validation Projects_ by ESA.
+summary: AUTh kicks-off the "PeakSAT" project to advance optical satellite communication from Low Earth Orbit to the Cholomondas station, as part of the Greek CubeSats In-Orbit Validation Projects programme by ESA.
 description: The Aristotle University of Thessaloniki kicks-off the "PeakSAT" nanosatellite project to advance optical satellite communication from Low Earth Orbit to the Cholomondas station, as part of the _Greek CubeSats In-Orbit Validation Projects_ programme by the European Space Agency.
 author: SpaceDot
 authorimage: ../assets/images/global/spacedot_circle.svg

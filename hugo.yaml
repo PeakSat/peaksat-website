@@ -65,14 +65,6 @@ params:
     content:
       - text: "PeakSAT is a 3U CubeSat mission that is being designed and developed at the Aristotle University of Thessaloniki. The mission is centred around the demonstration of advanced optical communications technology for both downlink and uplink, using the CubeSat platform."      
       - text: PeakSAT will be composed of COTS components, with the inclusion of some in-house developments and an optical terminal as a payload. The mission aims to achieve a 1 Gbps downlink at C-band and 100 Mbps uplink at L-band with the Holomondas Observatory in Halkidiki.
-  p3:
-    heading: "Backed by world-renowned investors"
-    content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
-    links:
-      - text: Meet our investors and advisors
-        url: "#"
-
   p4:
     heading: "News"
     content:
@@ -95,26 +87,22 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
     - identifier: about
       name: About
       url: /about/
       weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
+    - identifier: news
+      name: News
+      url: /categories/news/
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
-    - identifier: contact
-      name: Contact
-      url: /contact/
+    - identifier: spacedot
+      name: SpaceDot »
       weight: 50
+      url: https://spacedot.gr/
+    - identifier: acubesat
+      name: AcubeSAT »
+      url: https://acubesat.spacedot.gr/
+      weight: 40
   footer:
     - identifier: about
       name: About

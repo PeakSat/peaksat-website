@@ -183,10 +183,94 @@
         </div>
     </div>
 
+    <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
+        <div class="absolute inset-0">
+            <div class="bg-gray-200 dark:bg-gray-900/50 h-full sm:h-full"></div>
+        </div>
+        <div class="relative px-2 mx-auto max-w-7xl">
+            <div class="text-center">
+                <h2 class="text-3xl font-black tracking-tight text-primary-500 dark:text-primary-300 sm:text-4xl">
+                    Consortium Partners
+                </h2>
+                <p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 dark:text-gray-300 sm:mt-4">
+                </p>
+            </div>
+
+            <div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 md:px-1.5">
+                <div class="px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200">
+                    <div class="grid gap-64 mx-auto mt-12 mb-4 mx-32 lg:max-w-none md:grid-cols-2 items-center justify-evenly">
+                        {{ $logo := resources.Get "images/global/logos/auth-white.png" }}
+                        {{ with $logo }}
+                        {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
+                        <img src="{{ $logoimage }}" alt="Aristotle University of Thessaloniki"
+                            class="object-fill overflow-hidden" width="100%" height="" loading="lazy"
+                             />
+                        {{ end }}
+
+                        {{ $logo := resources.Get "images/global/logos/Prisma_logo.png" }}
+                        {{ with $logo }}
+                        {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
+                        <img src="{{ $logoimage }}" alt="Prisma Electronics"
+                            class="object-fill overflow-hidden" width="100%" height="" loading="lazy"
+                             />
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <h3 class="text-2xl font-bold tracking-tight text-primary-500 dark:text-primary-300 sm:text-3xl">
+                    Supported By
+                </h3>
+                <p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 dark:text-gray-300 sm:mt-4">
+                    Programme of the European Union – Next GenerationEU
+                </p>
+            </div>
+
+            <div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 md:px-1.5">
+                <div class="px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200">
+                    <div class="grid gap-12 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-4 items-center">
+                        {{ $logo := resources.Get "images/global/logos/EN_Funded_by_European_Union_vert_RGB_NEG.png" }}
+                        {{ with $logo }}
+                        {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
+                        <img src="{{ $logoimage }}" alt="Funded by the European Union - NextGenerationEU"
+                            class="object-fill overflow-hidden" width="100%" height="" loading="lazy"
+                             />
+                        {{ end }}
+
+                        {{ $logo := resources.Get "images/global/logos/Greece20.png" }}
+                        {{ with $logo }}
+                        {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
+                        <img src="{{ $logoimage }}" alt="Greece20"
+                            class="object-fill overflow-hidden" width="100%" height="" loading="lazy"
+                             />
+                        {{ end }}
+
+                        {{ $logo := resources.Get "images/global/logos/ministry.png" }}
+                        {{ with $logo }}
+                        {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
+                        <img src="{{ $logoimage }}" alt="Hellenic Republic - Ministry of Digital Governance"
+                            class="object-fill overflow-hidden" width="100%" height="" loading="lazy"
+                          />
+                        {{ end }}
+
+                        {{ $logo := resources.Get "images/global/logos/ESA_logo_2020_White.png" }}
+                        {{ with $logo }}
+                        {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
+                        <img src="{{ $logoimage }}" alt="Greece20"
+                            class="object-fill overflow-hidden" width="100%" height="" loading="lazy"
+                            alt="ESA" />
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Blog section -->
     <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
         <div class="absolute inset-0">
-            <div class="bg-gray-200 dark:bg-gray-900/50 h-1/3 sm:h-2/3"></div>
+            <div class="bg-gray-200 dark:bg-gray-900/50 md:mt-64 h-1/3 sm:h-2/3"></div>
         </div>
         <div class="relative px-2 mx-auto max-w-7xl">
             <div class="text-center">

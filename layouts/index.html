@@ -403,24 +403,24 @@
                             We would love to hear from you!
                         </p>
                     </div>
-                    <form action="{{ .Site.Params.P5.Action }}">
+                    <form method="POST" action="https://peaksat.spacedot.gr/forms/peaksat-contact">
                         <div class="mt-12 sm:mx-auto sm:flex sm:max-w-lg gap-3">
                             <div class="flex-1 min-w-0">
-                                <label for="cta-name" class="sr-only">Your Name</label>
-                                <input id="cta-name" type="text"
+                                <label for="firstName" class="sr-only">Your Name</label>
+                                <input id="firstName" name="firstName" type="text"
                                     class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500"
                                     placeholder="Your Name">
                             </div>
                             <div class="flex-1 min-w-0 mt-4 sm:mt-0">
-                                <label for="cta-email" class="sr-only">E-mail Address</label>
-                                <input id="cta-email" type="email"
+                                <label for="subject" class="sr-only">E-mail Address</label>
+                                <input id="subject" name="subject" type="email"
                                     class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500"
                                     placeholder="E-mail Address">
                             </div>
                         </div>
                         <div class="sm:mx-auto sm:max-w-lg mt-4">
-                            <label for="cta-email" class="sr-only">Your Message</label>
-                            <textarea id="cta-message" rows="4"
+                            <label for="body" class="sr-only">Your Message</label>
+                            <textarea id="body" name="body" rows="4"
                                 class="w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500"
                                 placeholder="Your Message"></textarea>
                         </div>

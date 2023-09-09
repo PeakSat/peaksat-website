@@ -81,7 +81,7 @@
                             {{ $thumb := ($logo.Resize "x400 webp q100") }}
                             {{ $large := ($logo.Resize "x576 webp q100") }}
 
-                            <div class="w-full max-w-xl">
+                            <div class="w-full">
                             <a href="https://www.thessalonikifair.gr"><img srcset="
                                 {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
                                 {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $logo.RelPermalink }}"
@@ -130,12 +130,12 @@
                         <rect width="404" height="392" fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)"></rect>
                     </svg>
                 </div>
-                <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
+                <div class="relative pl-4 lg:-mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
                     {{ $p2image := resources.Get .Site.Params.P2.Image }}
                     {{ with $p2image }}
                     {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
                     <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="p2"
-                        class="w-full rounded-lg lg:h-96 lg:w-auto lg:max-w-none" loading="lazy" />
+                        class="w-full max-w-sm mx-auto lg:mx-0 rounded-lg lg:h-96 lg:w-auto lg:max-w-none" loading="lazy" />
                     {{ end }}
                     {{ end }}
 
@@ -198,7 +198,7 @@
 
             <div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 md:px-1.5">
                 <div class="px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200">
-                    <div class="grid gap-64 mx-auto mt-12 mb-4 mx-32 lg:max-w-none md:grid-cols-2 items-center justify-evenly">
+                    <div class="grid gap-6 md:gap-64 mx-auto mt-12 mb-4 mx-32 lg:max-w-none md:grid-cols-2 items-center justify-evenly">
                         {{ $logo := resources.Get "images/global/logos/auth-white.png" }}
                         {{ with $logo }}
                         {{ $logoimage := (.Resize "500x webp q90").RelPermalink }}
@@ -236,7 +236,7 @@
             </div>
 
             <div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 md:px-1.5">
-                <div class="px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200">
+                <div class="px-24 md:px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200">
                     <div class="grid gap-12 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-4 items-center">
                         {{ $logo := resources.Get "images/global/logos/EN_Funded_by_European_Union_vert_RGB_NEG.png" }}
                         {{ with $logo }}

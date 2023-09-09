@@ -17,7 +17,7 @@
                     </p>
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/peaksat_render.png" }}
+                    {{ $hero := resources.GetMatch "images/pages/PeakSat_render.png" }}
 
                     {{ $thumb := ($hero.Resize "x400 webp q100") }}
                     {{ $large := ($hero.Resize "x576 webp q100") }}
@@ -25,7 +25,7 @@
                     <img srcset="
                         {{- with $thumb.RelPermalink -}}{{.}} 400h{{- end -}}
                         {{- with $large.RelPermalink -}}, {{.}} 576h{{- end -}}" src="{{ $hero.RelPermalink }}"
-                        width="100%" height="" alt="Render of PeakSAT" class="w-full max-w-xl mx-auto rounded-lg" />
+                        width="100%" height="" alt="Render of PeakSat" class="w-full max-w-xl mx-auto rounded-lg" />
                 </div>
             </div>
         </div>
@@ -403,7 +403,7 @@
                             We would love to hear from you!
                         </p>
                     </div>
-                    <form method="POST" action="https://peaksat.spacedot.gr/forms/peaksat-contact">
+                    <form method="POST" action="https://PeakSat.spacedot.gr/forms/PeakSat-contact">
                         <div class="mt-12 sm:mx-auto sm:flex sm:max-w-lg gap-3">
                             <div class="flex-1 min-w-0">
                                 <label for="firstName" class="sr-only">Your Name</label>

@@ -1,5 +1,5 @@
 baseURL: ''
-title: PeakSAT
+title: PeakSat
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -50,7 +50,7 @@ params:
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "A 3U Optical Communications Mission"
-  description: "Started in 2023, PeakSAT is a 3U CubeSat mission designed in the Aristotle University of Thessaloniki. It aims to demonstrate the capability of performing laser links with Optical Ground Stations in Greece, and to pave the way for a space-based quantum communications network."
+  description: "Started in 2023, PeakSat is a 3U CubeSat mission designed in the Aristotle University of Thessaloniki. It aims to demonstrate the capability of performing laser links with Optical Ground Stations in Greece, and to pave the way for a space-based quantum communications network."
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
@@ -58,13 +58,13 @@ params:
     heading: "Find us at TIF!"
     image: "images/pages/event_1.jpg"
     content:
-      - text: "AcubeSAT and PeakSAT will be present at the Thessaloniki International Fair (TIF) from **9 to 17 September 2023**. Come visit us at the `akademia` pavilion **(Pavilion 14, AUTh stand)** to learn more about our missions and our projects."
+      - text: "AcubeSAT and PeakSat will be present at the Thessaloniki International Fair (TIF) from **9 to 17 September 2023**. Come visit us at the `akademia` pavilion **(Pavilion 14, AUTh stand)** to learn more about our missions and our projects."
   p2:
     heading: "The mission"
-    image: "images/global/peaksat_patch_draft_purple.png"
+    image: "images/global/PeakSat_patch_draft_purple.png"
     content:
-      - text: "PeakSAT is a 3U CubeSat mission that is being designed and developed at the Aristotle University of Thessaloniki. The mission is centred around the demonstration of advanced optical communications technology for both downlink and uplink, using the CubeSat platform."      
-      - text: PeakSAT will be composed of COTS components, with the inclusion of some in-house developments and an optical terminal as a payload. The mission aims to achieve a 1 Gbps downlink at C-band and 100 Mbps uplink at L-band with the Holomondas Observatory in Halkidiki.
+      - text: "PeakSat is a 3U CubeSat mission that is being designed and developed at the Aristotle University of Thessaloniki. The mission is centred around the demonstration of advanced optical communications technology for both downlink and uplink, using the CubeSat platform."      
+      - text: PeakSat will be composed of COTS components, with the inclusion of some in-house developments and an optical terminal as a payload. The mission aims to achieve a 1 Gbps downlink at C-band and 100 Mbps uplink at L-band with the Holomondas Observatory in Halkidiki.
   p4:
     heading: "News"
     content:
@@ -73,7 +73,7 @@ params:
   social_media:
     github:
       enabled: false
-      url: 'https://github.com/peaksat'
+      url: 'https://github.com/PeakSat'
     facebook:
       enabled: true
       url: 'https://www.facebook.com/spacedot.auth/'

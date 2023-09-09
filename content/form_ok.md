@@ -17,7 +17,7 @@ description: Successful form submission
             <p class="mb-4 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl dark:text-white">
                 We have received your message and will respond to it shortly.
             </p>
-            <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">Sorry, we can't find that page.
+            <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">
                 In the meantime, feel free to follow our social media! </p>
             <a href="/"
                 class="inline-flex text-white bg-primary-600 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 my-4">Back

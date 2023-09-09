@@ -4,7 +4,7 @@ date: 2021-12-18T11:10:36+08:00
 draft: false
 language: en
 description: About Us
-featured_image: ../assets/images/pages/PeakSat_render.png
+featured_image: ../assets/images/pages/peaksat_render.png
 ---
 
 Satellite optical communication systems seek to address the limitations of radio frequency communications. Laser communication allows for bandwidths unreachable with other wireless, long-distance communication technologies. Due to the narrow beam divergence, laser communications are secure, and further so when combined with Quantum Key Distribution. Moreover, the optical bands are licence-free compared to the overcrowded RF spectrum.

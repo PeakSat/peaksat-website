@@ -54,11 +54,6 @@ params:
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
-  p1:
-    heading: "Find us at TIF!"
-    image: "images/pages/event_1.jpg"
-    content:
-      - text: "AcubeSAT and PeakSat will be present at the Thessaloniki International Fair (TIF) from **9 to 17 September 2023**. Come visit us at the `akademia` pavilion **(Pavilion 14, AUTh stand)** to learn more about our missions and our projects."
   p2:
     heading: "The mission"
     image: "images/global/peaksat_patch_draft_purple.png"

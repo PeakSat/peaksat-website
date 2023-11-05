@@ -343,24 +343,26 @@
                             We would love to hear from you!
                         </p>
                     </div>
-                    <form method="POST" action="https://peaksat.spacedot.gr/forms/peaksat-contact">
+                    <form method="POST" action="https://contact.spacedot.gr/en/customer/create-ticket/">
+                        <input type="hidden" name="type" value="2">
+                        <input type="hidden" name="subject" value="Website Contact Form">
                         <div class="mt-12 sm:mx-auto sm:flex sm:max-w-lg gap-3">
                             <div class="flex-1 min-w-0">
-                                <label for="firstName" class="sr-only">Your Name</label>
-                                <input id="firstName" name="firstName" type="text"
+                                <label for="name" class="sr-only">Your Name</label>
+                                <input id="name" name="name" type="text"
                                     class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500"
                                     placeholder="Your Name">
                             </div>
                             <div class="flex-1 min-w-0 mt-4 sm:mt-0">
-                                <label for="subject" class="sr-only">E-mail Address</label>
-                                <input id="subject" name="subject" type="email"
+                                <label for="from" class="sr-only">E-mail Address</label>
+                                <input id="from" name="from" type="email"
                                     class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500"
                                     placeholder="E-mail Address">
                             </div>
                         </div>
                         <div class="sm:mx-auto sm:max-w-lg mt-4">
                             <label for="body" class="sr-only">Your Message</label>
-                            <textarea id="body" name="body" rows="4"
+                            <textarea id="body" name="reply" rows="4"
                                 class="w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500"
                                 placeholder="Your Message"></textarea>
                         </div>

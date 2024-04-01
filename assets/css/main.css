@@ -25,6 +25,11 @@ EmojiSymbols;
     color: white !important;
 }
 
+figcaption h4 {
+    @apply text-slate-500 !important;
+    @apply dark:text-slate-400 !important;
+}
+
 .fig-sidebyside {
     display: flex;
     flex-direction: row;

@@ -2038,6 +2038,16 @@ EmojiSymbols;
   color: white !important;
 }
 
+figcaption h4 {
+  --tw-text-opacity: 1 !important;
+  color: rgb(100 116 139 / var(--tw-text-opacity)) !important;
+}
+
+:is(.dark figcaption h4) {
+  --tw-text-opacity: 1 !important;
+  color: rgb(148 163 184 / var(--tw-text-opacity)) !important;
+}
+
 .fig-sidebyside {
   display: flex;
   flex-direction: row;

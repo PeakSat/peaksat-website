@@ -25,4 +25,37 @@ EmojiSymbols;
     color: white !important;
 }
 
+.fig-sidebyside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fig-sidebyside > figure {
+    margin-bottom: 0;
+}
+
+@media (min-width: 100rem) {
+    .fig-left {
+        position: absolute;
+        margin-left: -30rem;
+        width: 20vw;
+        max-width: 27rem;
+
+        > figcaption {
+            text-align: right;
+        }
+    }
+
+    .fig-right {
+        float: right;
+        position: absolute;
+        margin-left: 45rem;
+        width: 20vw;
+        max-width: 27rem;
+    }
+}
+
 /* Custom CSS end */
